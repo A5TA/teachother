@@ -1,0 +1,22 @@
+.nav_bar {
+    background-color: rgb(11, 33, 73);
+}
+
+.title {
+    color: 'white';
+    font-family: 'Spline Sans Mono', monospace;
+    letter-spacing: 0.2rem;
+}
+
+.links{
+    color: 'white';
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+.links:hover {
+    border-bottom: 2px solid gray;
+}
+
+.active_link {    
+    border-bottom: 2px solid white;
+}
