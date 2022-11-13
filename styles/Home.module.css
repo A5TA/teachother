@@ -1,0 +1,46 @@
+.progress_bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: rgb(68, 127, 236);
+    transform-origin: 0%;
+  }
+
+.heading_text {
+    font-size: 34px;
+    font-weight: 700;
+    height: 100%;
+    line-height: 2.1;
+    list-style-type: square;
+    padding: 1rem;
+}
+
+.heading_text li:hover {
+    font-size: 36px;
+}
+
+.heading {
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.card {
+    display: flex;
+    height: 50vh;
+    border-radius: 13px;
+    box-shadow: 20px 40px 33px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    background-color: rgba(68, 127, 236, 0.1);
+}
+
+.image_container {
+  box-shadow: 10px 15px 15px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 13px;
+}
+
+.card_h2 {
+    padding: 1rem;
+    margin-left: 20px;
+}

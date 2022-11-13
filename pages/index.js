@@ -1,13 +1,13 @@
 import Head from 'next/head'
-
+import HomePage from '../components/HomePage'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>TeachOther</title>
       </Head>
-      <h1>Welcome to TeachOther</h1>
-    </div>
+      <HomePage />
+    </>
   )
 }
