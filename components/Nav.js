@@ -6,11 +6,10 @@ import styles from '../styles/Nav.module.css'
 import AccessibilityIcon from '@mui/icons-material/Accessibility'
 
 const Nav = ({selected}) => {
-    // TODO: add useState to color the selected tab
     const [currentTab, setCurrentTab] = useState(selected)
   return (
     <AppBar position='static' className={styles.nav_bar}>
-        <Toolbar >
+        <Toolbar style={{width: '100%'}}>
             <IconButton sx={{color: 'white', margin: 0, padding: 0}} >
                 <AccessibilityIcon />
             </IconButton>
